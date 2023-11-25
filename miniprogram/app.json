@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/mine/index",
+    "pages/logs/logs",
+    "pages/app/index",
+    "pages/chat/index"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home-fill.png"
+			},
+			{
+        "pagePath": "pages/app/index",
+        "text": "App",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home-fill.png"
+			},
+			{
+        "pagePath": "pages/chat/index",
+        "text": "聊天",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home-fill.png"
+			},
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "assets/icons/user.png",
+        "selectedIconPath": "assets/icons/user-fill.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
